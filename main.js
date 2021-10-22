@@ -1,8 +1,8 @@
 const linksSocialMedia = {
-  github: 'Furioncoding',
+  github: 'pedrollopesb',
   youtube: 'channel/UC6QRsU6s9wy5JGge_xnxSNA',
-  facebook: 'pedro.lucas.589',
-  instagram: 'pedrolopss',
+  facebook: 'pedrollopesb',
+  instagram: 'pedrollopesb',
   twitter: 'pedrollopesb'
 }
 
@@ -12,12 +12,6 @@ function changeSocialMediaLinks() {
     li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
   }
 }
-
-// i = i + 1
-// i++
-
-// ser humano conta algo a partir de: 12345678910
-// computador conta algo a partir de: 0123456789
 
 changeSocialMediaLinks()
 
